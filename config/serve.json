@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cmperal.sharepoint.com/sites/DeveloperSite/Lists/Simple%20Math/AllItems.aspx",
+      "customActions": {
+        "6138ac33-35c6-4a1d-9bc3-fd61af4a7b7d": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "both": {
+      "pageUrl": "https://cmperal.sharepoint.com/sites/DeveloperSite/Lists/Simple%20Math/AllItems.aspx",
+      "customActions": {
+        "6138ac33-35c6-4a1d-9bc3-fd61af4a7b7d": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

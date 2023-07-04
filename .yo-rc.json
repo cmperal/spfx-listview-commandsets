@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "ext-cmd-buttons",
+    "libraryId": "9ada139c-29f7-4974-bfd2-4fe721bb2edf",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ext-cmd-buttons",
+    "solutionShortDescription": "ext-cmd-buttons description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
