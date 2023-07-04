@@ -43,12 +43,12 @@ export default class CommandSetButtonsCommandSet extends BaseListViewCommandSet<
 
   public async onExecute(event: IListViewCommandSetExecuteEventParameters): Promise<void> {
     switch (event.itemId) {
-      case 'COMMAND_1':
+      case 'ONE_ITEM_SELECTED':
         Dialog.alert(`${this.properties.sampleTextOne}`).catch(() => {
           /* handle error */
         });
         break;
-      case 'COMMAND_2':
+      case 'TWO_ITEM_SELECTED':
         Dialog.alert(`${this.properties.sampleTextTwo}`).catch(() => {
           /* handle error */
         });
